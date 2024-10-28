@@ -5,17 +5,16 @@ const Color primaryBgColor = Colors.blueGrey;
 const Color secondBgColor = Colors.lightBlue;
 
 const Color primaryTextColor = Colors.black;
-const Color secondaryTextColor = Colors.blueGrey;
+const Color secondTextColor = Colors.white;
 
 final textTitle = GoogleFonts.lato(
-  fontSize: 24,
+  fontSize: 28,
   color: primaryTextColor,
   fontWeight: FontWeight.w700,
 );
 
 final textSubTitle = GoogleFonts.lato(
-  fontSize: 18,
-  color: secondaryTextColor,
+  fontSize: 20,
+  color: secondTextColor,
   fontWeight: FontWeight.w500,
-  fontStyle: FontStyle.italic,
 );
